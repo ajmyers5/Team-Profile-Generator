@@ -142,7 +142,7 @@ function closingprompts() {
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">ID: ${Managers[i].id}</li>
                         <li class="list-group-item">Email: <a href="mailto:${Managers[i].email}">${Managers[i].email}</a></li>
-                        <li class="list-group-item">Office Number: ${Managers[i].officenum}</li>
+                        <li class="list-group-item">Office Number: ${Managers[i].officeNum}</li>
                     </ul>
                 </div>`;
           fs.appendFile("index.html", newcard, (err) => {
