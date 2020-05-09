@@ -138,7 +138,6 @@ function closingprompts() {
                 <div class="card p-0 m-2" style="width: 18rem;">
                     <div class="card-body" style= "background-color: #cedbe3; color: black;">
                         <h2 class="card-title text-center">${Managers[i].name}</h2>
-                        <h4 class="card-text text-center"><img src="mgr-icon.png">&nbsp;&nbsp;Manager</h4>
                 </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">ID: ${Managers[i].id}</li>
@@ -156,7 +155,6 @@ function closingprompts() {
                 <div class="card p-0 m-2" style="width: 18rem;">
                     <div class="card-body" style= "background-color: #cedbe3; color: black">
                         <h2 class="card-title text-center">${Engineers[i].name}</h2>
-                        <h4 class="card-text text-center"><img src="eng-icon.png">&nbsp;&nbsp;Engineer</h4>
                 </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">ID: ${Engineers[i].id}</li>
@@ -174,7 +172,6 @@ function closingprompts() {
                 <div class="card p-0 m-2" style="width: 18rem;">
                     <div class="card-body" style= "background-color: #cedbe3; color: black">
                         <h2 class="card-title text-center">${Interns[i].name}</h2>
-                        <h4 class="card-text text-center"><img src="int-icon.png">&nbsp;&nbsp;Intern</h4>
                 </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">ID: ${Interns[i].id}</li>
